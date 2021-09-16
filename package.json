@@ -4,7 +4,7 @@
   "description": "Aplicativo da aula",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Hudson82011/exercicioNode/issues"
   },
-  "homepage": "https://github.com/Hudson82011/exercicioNode#readme"
+  "homepage": "https://github.com/Hudson82011/exercicioNode#readme",
+  "dependencies": {
+    "jest": "^27.2.0"
+  }
 }
